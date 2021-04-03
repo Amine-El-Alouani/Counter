@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #29252A;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+p{
+    margin-left: 52px;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+
+button{
+    width: 60px;
+    height: 50px;
+    border: 0;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.plus{
+    background-color: rgb(26, 146, 26);
+}
+
+.moins{
+    background-color: rgb(216, 58, 58);   
+}
